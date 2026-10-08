@@ -1,0 +1,47 @@
+{
+  "metrics": {
+    "total_return": 0.41307073226681856,
+    "max_drawdown": -0.043263659406573396,
+    "benchmark_return": 0.09889469221961322,
+    "benchmark_max_drawdown": -0.20841975962894566,
+    "excess_return": 0.31417604004720534,
+    "benchmark_kind": "same_stock_close_price_no_costs",
+    "trade_count": 6,
+    "total_fees": 381.587252483341,
+    "total_slippage_cost": 331.4079044487812,
+    "final_equity": 141307.07322668185,
+    "final_shares": 0,
+    "rows": 180,
+    "warmup_rows": 19
+  },
+  "config": {
+    "fast": 5,
+    "slow": 20,
+    "initial_cash": 100000.0,
+    "lot_size": 100,
+    "commission_rate": 0.0003,
+    "minimum_commission": 5.0,
+    "sell_tax_rate": 0.0005,
+    "transfer_rate": 1e-05,
+    "slippage_bps": 5.0
+  },
+  "metadata": {
+    "source": "synthetic_seed_20261008",
+    "price_basis": "synthetic_no_actions",
+    "code": null,
+    "start": "2025-01-02 00:00:00",
+    "end": "2025-09-10 00:00:00",
+    "input_sha256": "59d91207ec2be93f8a49dba7a090f34ca4cbd8e4d6cea557e250de585e71ff7e",
+    "benchmark_sha256": null,
+    "pandas_version": "2.2.3",
+    "execution": "prior_close_target_at_next_open",
+    "warnings": [
+      "Research prototype: no corporate-action cash/share ledger or historical fee schedules.",
+      "No auction liquidity, partial fills, limit-price rules or delisting settlement simulation.",
+      "Daily zero volume is only a suspension proxy; supply opening-known can_buy/can_sell for real execution.",
+      "Benchmark is a frictionless close-price index, not a cost-matched tradable portfolio.",
+      "Final holdings are marked to last close without liquidation fees.",
+      "SYNTHETIC DATA: returns have no investment interpretation; dates are weekdays, not exchange calendar."
+    ]
+  }
+}
